@@ -15,5 +15,8 @@ public class QueryVo {
 	//当前页
 	private Integer page;
 	//每页数
-	private Integer size;
+	private Integer size = 10;
+	//开始行
+	private Integer startRow = 0;
+	
 }
